@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .customDivider {
+    @apply w-full h-[1px] bg-gray-600;
+  }
+
+  .sidebarOption {
+    @apply flex items-center hover:bg-gray-900 cursor-pointer p-2 gap-2;
+  }
+}
+
 html {
   height: 100%;
 }
